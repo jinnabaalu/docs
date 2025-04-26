@@ -1,0 +1,8 @@
+{
+  "label": "K8s Cluster",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "k8s Cluster"
+  }
+}

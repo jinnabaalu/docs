@@ -1,0 +1,39 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: cert-replication
+  namespace: cert-manager
+spec:
+  ttlSecondsAfterFinished: 300
+  template:
+    spec:
+      containers:
+      - name: cert-replication
+        image: bitnami/kubectl:latest
+        command:
+        - /bin/sh
+        - -c
+        - |
+          SECRET_NAME="wildcard-jinnabalu-com-tls"
+          SOURCE_NAMESPACE="cert-manager"
+          if [ -z "$TARGET_NAMESPACES" ]; then
+            echo "No target namespaces provided, exiting."
+            exit 1
+          fi
+          TARGET_NAMESPACES=($TARGET_NAMESPACES)
+          kubectl get secret $SECRET_NAME -n $SOURCE_NAMESPACE -o yaml > /tmp/secret.yaml
+          for NAMESPACE in "${TARGET_NAMESPACES[@]}"; do
+            # Delete the existing secret if it exists
+            kubectl delete secret $SECRET_NAME -n $NAMESPACE --ignore-not-found
+            # Apply the new secret
+            sed "s/namespace: $SOURCE_NAMESPACE/namespace: $NAMESPACE/" /tmp/secret.yaml > /tmp/secret-$NAMESPACE.yaml
+            kubectl apply -f /tmp/secret-$NAMESPACE.yaml
+          done
+        env:
+        - name: TARGET_NAMESPACES
+          value: "namespace1 namespace2"
+      restartPolicy: OnFailure
+
+
+# update TARGET_NAMESPACES values with space separated values
+# kubectl apply -f certificate-replicator.yaml
