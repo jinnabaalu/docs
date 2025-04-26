@@ -8,10 +8,11 @@ const config: Config = {
   favicon: 'https://jinnabalu.com/assets/img/icons/favicon-194x194.png',
   url: 'https://jinnabalu.com',
   baseUrl: '/docs/',
-  organizationName: 'jinnabalu',
+  organizationName: 'jinnabaalu',
+  projectName: 'docs',
   trailingSlash: false,
-  deploymentBranch: 'main',
-  onBrokenLinks: 'throw',
+  deploymentBranch: 'gh-pages',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
