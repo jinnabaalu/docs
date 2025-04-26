@@ -7,8 +7,11 @@ image: ../../static/img/Elasticsearch-Through-Containers.svg
 keywords: [Elastic Stack, Containerisation, Production, Scaling, Tuning, Security, Observability]
 ---
 # 🫧 Elastic Stack Operations
+![ELK Stack](https://img.shields.io/badge/ELK%20Stack-8A2BE2?style=for-the-badge&logo=elastic&logoColor=white)
 
-### Production-Proof Elasticsearch
+
+
+### Production-Proof Elasticsearch 
 #### My Hands-On Journey from Dev Mode to Production-Grade Infra
 
 This is my real-world Elasticsearch journey — from basic CRUD operations to building secure, scalable,production-grade clusters, and observability instrumentation.
@@ -18,7 +21,10 @@ This is my real-world Elasticsearch journey — from basic CRUD operations to bu
 
 | Topic  | Learn from |
 |----|----|
-|🔹 [Single Node Cluster Setup](./RunSingleNodeElasticsearchContainer.md) |[![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white&style=for-the-badge)](https://youtube.com/yourchannel) [![Blog](https://img.shields.io/badge/Blog-blue?logo=ghost&logoColor=white&style=for-the-badge)](./RunSingleNodeElasticsearchContainer.md) [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white&style=for-the-badge)](https://github.com/yourusername/yourrepo) [![Gist](https://img.shields.io/badge/Gist-Activity-blue?logo=github&style=for-the-badge)](https://gist.github.com/yourusername) |
+|[Single Node Cluster Setup](./RunSingleNodeElasticsearchContainer.md) ![Basics of ELK](https://img.shields.io/badge/What%20is%20ELK%20%3F-F28E1C) ![Basics of ELK](https://img.shields.io/badge/Basic%20ELK%20Stack%20-8A2BE2)| [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white&style=for-the-badge)](https://github.com/jinnabaalu/ELKOperations/blob/main/elasticsearch/single-node/docker-compose.yml) [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white&style=for-the-badge)](https://youtube.com/yourchannel)|
+|[Performing CRUD Operations on Elasticsearch via cURL](./ExecuteCRUDOperationOnElasticsearch.md)  ![Basics of ELK](https://img.shields.io/badge/What%20is%20ELK%20%3F-F28E1C) ![Basics of ELK](https://img.shields.io/badge/Basic%20ELK%20Stack%20-8A2BE2) |[![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white&style=for-the-badge)](https://youtube.com/yourchannel)|
+|[Run Kibana Docker Container](./RunKibanaContainer.md)  ![Basics of ELK](https://img.shields.io/badge/What%20is%20ELK%20%3F-F28E1C) ![Basics of ELK](https://img.shields.io/badge/Basic%20ELK%20Stack%20-8A2BE2) |[![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white&style=for-the-badge)](https://github.com/jinnabaalu/ELKOperations/tree/main/logstash/postgres-to-elasticsearch) [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white&style=for-the-badge)](https://youtube.com/yourchannel)|
+|[Basic Logstash Pipeline](./RunLogstashPipeineWithContainer.md)  ![Basics of ELK](https://img.shields.io/badge/What%20is%20ELK%20%3F-F28E1C) ![Basics of ELK](https://img.shields.io/badge/Basic%20ELK%20Stack%20-8A2BE2) |[![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white&style=for-the-badge)](https://raw.githubusercontent.com/jinnabaalu/ELKOperations/refs/heads/main/kibana/docker-compose.yml) [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white&style=for-the-badge)](https://youtube.com/yourchannel)|
 🔄 Logstash ETL with PostgreSQL & Kibana | 🔗 -- | 🔗 -- | View | Activity Log
 🔐 Enable XPack (Security, Monitoring, Alerting) | 🔗 -- | 🔗 -- | WIP | Activity Log
 🏗️ Basic High Availability Setup | 🔗 -- | 🔗 -- | WIP | Activity Log

@@ -9,15 +9,18 @@ description: " 🐳 Run a single-node Elasticsearch container"
 ---
 ### 🛠️ Prerequisites
 
-Install [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) 
+- Install [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) 
 
 ---
 ##  🐳 Run a single-node Elasticsearch container
 
 📄 **Download the `docker-compose.yml` file**
+
 ```bash
 wget -O docker-compose.yml https://raw.githubusercontent.com/jinnabaalu/ELKOperations/main/elasticsearch/single-node/docker-compose.yml
 ```
+> The compose file is configured to conenct with the elasticsearch container, which runs on the same server. 
+
 🛠️ **Run it**
 ```bash
 docker-compose up -d
@@ -26,6 +29,10 @@ docker-compose up -d
 ```bash
 docker ps -a
 ```
+> Container status need to be healthy
+
+> If it is not health you need to **check the logs** with `docker logs <kibana-container-name>`
+
 ---
 ## 🔍 Query Elasticsearch APIs
 
