@@ -7,7 +7,7 @@ const config: Config = {
   tagline: ' Experience The Operations',
   favicon: 'https://jinnabalu.com/assets/img/icons/favicon-194x194.png',
   url: 'https://jinnabalu.com',
-  baseUrl: '/',
+  baseUrl: '/oio/',
   organizationName: 'jinnabaalu',
   projectName: 'docs',
   trailingSlash: false,
