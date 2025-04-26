@@ -18,7 +18,7 @@ This is my real-world Elasticsearch journey — from basic CRUD operations to bu
 
 | Topic  | Learn from |
 |----|----|
-|🔹 [Single Node Cluster Setup](./DeploySingleNodeElasticsearchContainer.md) |[![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white&style=for-the-badge)](https://youtube.com/yourchannel) [![Blog](https://img.shields.io/badge/Blog-blue?logo=ghost&logoColor=white&style=for-the-badge)](https://yourblogdomain.com) [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white&style=for-the-badge)](https://github.com/yourusername/yourrepo) [![Gist](https://img.shields.io/badge/Gist-Activity-blue?logo=github&style=for-the-badge)](https://gist.github.com/yourusername) |
+|🔹 [Single Node Cluster Setup](./RunSingleNodeElasticsearchContainer.md) |[![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white&style=for-the-badge)](https://youtube.com/yourchannel) [![Blog](https://img.shields.io/badge/Blog-blue?logo=ghost&logoColor=white&style=for-the-badge)](./RunSingleNodeElasticsearchContainer.md) [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white&style=for-the-badge)](https://github.com/yourusername/yourrepo) [![Gist](https://img.shields.io/badge/Gist-Activity-blue?logo=github&style=for-the-badge)](https://gist.github.com/yourusername) |
 🔄 Logstash ETL with PostgreSQL & Kibana | 🔗 -- | 🔗 -- | View | Activity Log
 🔐 Enable XPack (Security, Monitoring, Alerting) | 🔗 -- | 🔗 -- | WIP | Activity Log
 🏗️ Basic High Availability Setup | 🔗 -- | 🔗 -- | WIP | Activity Log
