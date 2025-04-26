@@ -4,47 +4,32 @@ title: "🐳 Run Elasticsearch Single Node Docker Container"
 description: " 🐳 Run a single-node Elasticsearch container"
 "slug": "/ElasticStack/ElasticsearchSingleNodeDockerContainer"
 ---
+
 # 🐳 Run Elasticsearch Single Node Docker Container
-
-### 📘 Preface
-
-This guide assumes you already have some basic knowledge of **Docker**, **Podman**, and the Docker ecosystem components.  
-If you're new or need a quick refresher, check these out:
-
-👉 [Prepare Your Container Environment with Docker](https://docs.docker.com/get-started/#prepare-your-docker-environment)  
-👉 [Podman Installation Guide](https://podman.io/docs/installation)
-
+---
 ### 🛠️ Prerequisites
 
-1️⃣ Install [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) **or** [Podman](https://podman.io/docs/installation)  
-2️⃣ Install [Docker Compose](https://docs.docker.com/compose/install/)
+Install [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) 
 
-
+---
 ##  🐳 Run a single-node Elasticsearch container
 
-📄 **Step 1: Create the `docker-compose.yml` file**
-📄 **Step 1: Download the `docker-compose.yml` file**
-
-Run this command to download it directly from GitHub 👇
-
+📄 **Download the `docker-compose.yml` file**
 ```bash
 wget -O docker-compose.yml https://raw.githubusercontent.com/jinnabaalu/ELKOperations/main/elasticsearch/single-node/docker-compose.yml
 ```
-
-🛠️ **Step 2: Run it**
-
+🛠️ **Run it**
 ```bash
 docker-compose up -d
 ```
-
-#### Container Status
-
+🛠️ **Check Container Status**
 ```bash
 docker ps -a
 ```
+---
+## 🔍 Query Elasticsearch APIs
 
-#### 📡 Cluster & Node Status
-Query Elasticsearch APIs to check cluster health and nodes:
+Cluster & Node Status
 
 ```bash
 # Nodes in the cluster
@@ -63,9 +48,7 @@ curl -X GET 'localhost:9200/_nodes/stats?pretty'
 curl -X GET 'localhost:9200/_nodes/es-node/stats?pretty'
 ```
 
-#### 📦 Index & Plugin Info
-
-Inspect your index status and installed plugins:
+Index & Plugin Info
 
 ```bash
 # List indices (initially empty)
@@ -81,7 +64,7 @@ curl -X GET 'localhost:9200/_nodes/stats/indices?pretty'
 curl -X GET 'localhost:9200/_nodes/plugins'
 
 ```
-
+---
 ## 🧠 Homework – Practice Makes 🫵 Perfect
 
 🎯 **Deploy & Explore**: Bring up your stack, run commands, and build muscle memory

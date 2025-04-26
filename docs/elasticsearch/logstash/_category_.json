@@ -1,0 +1,8 @@
+{
+  "label": "Logstash Pipelines",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Logstash Pipelines with multiple inputs and outputs"
+  }
+}

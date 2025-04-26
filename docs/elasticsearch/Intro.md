@@ -2,20 +2,21 @@
 sidebar_position: 1
 title: 🫧 Introduction
 description: Overview of my Elasticsearch journey
-"slug": "/ElasticStack"
+slug: /ElasticStack
+image: ../../static/img/Elasticsearch-Through-Containers.svg
+keywords: [Elastic Stack, Containerisation, Production, Scaling, Tuning, Security, Observability]
 ---
 # 🫧 Elastic Stack Operations
 
 ### Production-Proof Elasticsearch
 #### My Hands-On Journey from Dev Mode to Production-Grade Infra
 
-This is my real-world Elasticsearch journey — from basic CRUD to building 🔐 secure, ⚙️ scalable, and 📈 production-grade clusters.
+This is my real-world Elasticsearch journey — from basic CRUD operations to building secure, scalable,production-grade clusters, and observability instrumentation.
 
-Not a course. A portfolio of battle-tested Elasticsearch operations — designing indices, scaling nodes, tuning cluster, masking data for compliance and upgrading versions. 
+![Learn Elasticsearch through Containers](../../static/img/Elasticsearch-Through-Containers.svg)
 
-Explore, reuse, adapt — this is how I made Elasticsearch production-proof. ✅
 
-|🧩 Area of experience |  |
+| Topic  | Learn from |
 |----|----|
 |🔹 [Single Node Cluster Setup](./DeploySingleNodeElasticsearchContainer.md) |[![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white&style=for-the-badge)](https://youtube.com/yourchannel) [![Blog](https://img.shields.io/badge/Blog-blue?logo=ghost&logoColor=white&style=for-the-badge)](https://yourblogdomain.com) [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white&style=for-the-badge)](https://github.com/yourusername/yourrepo) [![Gist](https://img.shields.io/badge/Gist-Activity-blue?logo=github&style=for-the-badge)](https://gist.github.com/yourusername) |
 🔄 Logstash ETL with PostgreSQL & Kibana | 🔗 -- | 🔗 -- | View | Activity Log
