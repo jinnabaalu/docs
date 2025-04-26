@@ -9,7 +9,7 @@ const config: Config = {
   url: 'https://jinnabalu.com',
   baseUrl: '/oio/',
   organizationName: 'jinnabaalu',
-  projectName: 'docs',
+  projectName: 'oio',
   trailingSlash: false,
   deploymentBranch: 'gh-pages',
   onBrokenLinks: 'warn',
