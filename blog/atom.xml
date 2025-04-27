@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jinnabalu.com/oio/blog</id>
-    <title>Ops Blog</title>
+    <title>Infinite Operations Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jinnabalu.com/oio/blog"/>
-    <subtitle>Ops Blog</subtitle>
+    <subtitle>Infinite Operations Blog</subtitle>
     <icon>https://jinnabalu.com/oio/https://jinnabalu.com/assets/img/icons/favicon-194x194.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
