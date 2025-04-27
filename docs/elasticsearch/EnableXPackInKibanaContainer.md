@@ -2,7 +2,7 @@
 sidebar_position: 7
 title: "🐳 Enable XPack in Kibana Container"
 description: "Secure Kibana connection with Elasticsearch over SSL — production-ready container setup"
-slug: "/ElasticStack/EnableXpackInKibanaContainer"
+slug: "/ElasticStack/EnableXPackInKibanaContainer"
 ---
 
 # 🐳 Enable XPack in Kibana Container

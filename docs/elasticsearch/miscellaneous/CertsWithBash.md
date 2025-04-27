@@ -84,7 +84,7 @@ cd $(pwd)/config/certs/
 ls
 ```
 You can then use the certs in the elasticsearch container, you can read more about 
-- [Enable XPack in Elasticsearch Container](../EnableXpackInElasticsearchContainer.md) 
-- [Enable XPack in Kibana Container](../EnableXpackInKibanaContainer.md)
-- [Enable XPack in Logstash Container](../EnableXpackInKibanaContainer.md)
+- [Enable XPack in Elasticsearch Container](../EnableXPackInElasticsearchContainer.md) 
+- [Enable XPack in Kibana Container](../EnableXPackInKibanaContainer.md)
+- [Enable XPack in Logstash Container](../EnableXPackInKibanaContainer.md)
 - so on.....

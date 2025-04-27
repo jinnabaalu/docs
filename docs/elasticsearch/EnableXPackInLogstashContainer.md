@@ -2,7 +2,7 @@
 sidebar_position: 8
 title: "🐳 Enable XPack in Logstash Container"
 description: "Secure Logstash to Elasticsearch communication over SSL — production-ready container setup"
-slug: "/ElasticStack/EnableXpackInLogstashContainer"
+slug: "/ElasticStack/EnableXPackInLogstashContainer"
 ---
 
 # 🐳 Enable XPack in Logstash Container
@@ -83,10 +83,10 @@ output {
 ```
 ---
 ## 🚨 Common Errors and Pitfalls
-Wrong CA cert? => Logstash won't even pass bin/logstash -t.
+Wrong CA cert? => Logstash won't even pass `bin/logstash -t`
 
-Bad elastic password? => Authentication failures in logs.
+Bad elastic password? => **Authentication failures** in logs.
 
-No pipeline? => Logstash runs but looks dead (because no data flowing).
+No pipeline? => Logstash runs but **looks dead** (because no data flowing).
 
 Treat your pipelines and certs like first-class citizens. 

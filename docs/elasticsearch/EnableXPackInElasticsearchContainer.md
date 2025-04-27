@@ -2,7 +2,7 @@
 sidebar_position: 6
 title: "🐳 Enable XPack in Elasticsearch Container"
 description: "Secure Elasticsearch with X-Pack and SSL — production-ready single-node setup"
-slug: "/ElasticStack/EnableXpackInElasticsearchContainer"
+slug: "/ElasticStack/EnableXPackInElasticsearchContainer"
 ---
 
 # 🐳 Enable XPack in Elasticsearch Container
