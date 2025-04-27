@@ -8,7 +8,7 @@ sidebar_position: 4
 - Install [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) 
 - Run Elasticsearch, in this case for testing you can folowing [Single Node Cluster Setup](./RunSingleNodeElasticsearchContainer.md)
 ---
-##   🐳 Run kibana container with docker-compose
+##   🐳 Run kibana container with docker compose
 
 📄 **Download the `docker-compose.yml` file**
 ```bash
@@ -16,7 +16,7 @@ wget -O docker-compose.yml https://raw.githubusercontent.com/jinnabaalu/ELKOpera
 ```
 🛠️ **Run it**
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 🛠️ **Check Container Status**
 ```bash

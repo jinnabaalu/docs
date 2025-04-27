@@ -23,7 +23,7 @@ wget -O docker-compose.yml https://raw.githubusercontent.com/jinnabaalu/ELKOpera
 
 🛠️ **Run it**
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 🛠️ **Check Container Status**
 ```bash

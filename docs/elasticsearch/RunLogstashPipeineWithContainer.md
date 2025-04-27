@@ -61,7 +61,7 @@ wget -P postgres/ https://raw.githubusercontent.com/jinnabaalu/ELKOperations/ref
 
 # View the content of init.sql to know the data getting inserted
 cd postgres/
-docker-compose up -d
+docker compose up -d
 ```
 
 > Based on the given `init.sql` data, it will create the databse and tables. You can check what you have inserted into the postgres. I have `vbvdb` database, and `employe`
@@ -94,7 +94,7 @@ output {
 Run the logstash container now 
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 - Check if Logstash container is up and healthy, `docker ps -a`, Look for the container named logstash — Status should be healthy or Up.

@@ -38,7 +38,7 @@ instances:
 ```bash
 mkdir -p xpack && cd xpack
 wget -O docker-compose.yml https://raw.githubusercontent.com/jinnabaalu/ELKOperations/refs/heads/main/xpack/docker-compose.yml
-docker-compose up -d
+docker compose up -d
 ```
 
 ### 📂 Output

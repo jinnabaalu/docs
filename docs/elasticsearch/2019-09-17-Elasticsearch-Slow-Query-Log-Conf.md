@@ -26,7 +26,7 @@ Search slow logs show the split times for both the query and the fetch phases wi
 - Run Single node elasticsearch
 
 ```bash
-docker-compose up -d 
+docker compose up -d 
 ```
 
 - Create the index
