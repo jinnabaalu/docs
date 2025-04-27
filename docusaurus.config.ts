@@ -3,8 +3,8 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Ops',
-  tagline: ' Experience The Operations',
+  title: 'Infinite Operations',
+  tagline: 'Experience The Operations',
   favicon: 'https://jinnabalu.com/assets/img/icons/favicon-194x194.png',
   url: 'https://jinnabalu.com',
   baseUrl: '/oio/',
