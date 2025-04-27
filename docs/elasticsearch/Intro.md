@@ -3,7 +3,7 @@ sidebar_position: 1
 title: 🫧 Introduction
 description: Overview of my Elasticsearch journey
 slug: /ElasticStack
-image: ../../static/img/Elasticsearch-Through-Containers.svg
+image: /oio/img/Elasticsearch-Through-Containers.svg
 keywords: [Elastic Stack, Containerisation, Production, Scaling, Tuning, Security, Observability]
 ---
 # 🫧 Elastic Stack Operations
@@ -19,7 +19,7 @@ This is my real-world Elasticsearch journey — from basic CRUD operations to bu
 ![Learn Elasticsearch through Containers](../../static/img/Elasticsearch-Through-Containers.svg)
 
 
-| Topic  | Learn from |
+| Topic  | |
 |----|----|
 |[Single Node Cluster Setup](./RunSingleNodeElasticsearchContainer.md) ![Basics of ELK](https://img.shields.io/badge/What%20is%20ELK%20%3F-F28E1C) ![Basics of ELK](https://img.shields.io/badge/Basic%20ELK%20Stack%20-8A2BE2)| [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white&style=for-the-badge)](https://github.com/jinnabaalu/ELKOperations/blob/main/elasticsearch/single-node/docker-compose.yml) [![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white&style=for-the-badge)](https://youtube.com/yourchannel)|
 |[Performing CRUD Operations on Elasticsearch via cURL](./ExecuteCRUDOperationOnElasticsearch.md)  ![Basics of ELK](https://img.shields.io/badge/What%20is%20ELK%20%3F-F28E1C) ![Basics of ELK](https://img.shields.io/badge/Basic%20ELK%20Stack%20-8A2BE2) |[![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white&style=for-the-badge)](https://youtube.com/yourchannel)|
