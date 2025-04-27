@@ -1,8 +1,0 @@
-{
-  "label": "🛡️ Enable XPack Security",
-  "position": 5,
-  "link": {
-    "type": "generated-index",
-    "description": "Generate certificates for Elasticsearch XPack Security with any of the following methods."
-  }
-}

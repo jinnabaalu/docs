@@ -27,7 +27,7 @@ cd logstash
 ---
 ### Pipeline Structure
 
-A Logstash pipeline has 3 blocks
+Pipelines should be well-configured, organized, and prioritized for smooth data flow. Treat your pipelines like first-class citizens. A Logstash pipeline has 3 blocks
 
 **1. Input**: Where the data comes from (e.g., JDBC, Beats, HTTP, etc.).
 

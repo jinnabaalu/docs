@@ -83,24 +83,8 @@ All generated certs will be in: /config/certs/
 cd $(pwd)/config/certs/
 ls
 ```
-
-## 🧪 Usage Example
-This is a sample config for Elasticsearch node `es01`.
-You can **copy the respective cert files/folders** to the target server where the node will run.
-```yml
-services:
-  es01:
-    image: docker.elastic.co/elasticsearch/elasticsearch:8.12.0
-    container_name: es01
-    volumes:
-      - $(pwd)/config/certs:/usr/share/elasticsearch/config/certs
-    environment:
-      ...
-      - xpack.security.http.ssl.key=certs/es01/es01.key
-      - xpack.security.http.ssl.certificate=certs/es01/es01.crt
-      - xpack.security.http.ssl.certificate_authorities=certs/ca/ca.crt
-      - xpack.security.transport.ssl.key=certs/es01/es01.key
-      - xpack.security.transport.ssl.certificate=certs/es01/es01.crt
-      - xpack.security.transport.ssl.certificate_authorities=certs/ca/ca.crt
-      ...
-```
+You can then use the certs in the elasticsearch container, you can read more about 
+- [Enable XPack in Elasticsearch Container](../EnableXpackInElasticsearchContainer.md) 
+- [Enable XPack in Kibana Container](../EnableXpackInKibanaContainer.md)
+- [Enable XPack in Logstash Container](../EnableXpackInKibanaContainer.md)
+- so on.....

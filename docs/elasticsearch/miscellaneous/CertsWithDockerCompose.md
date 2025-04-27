@@ -46,18 +46,3 @@ docker-compose up -d
 Your `./certs` folder will now contain:
 - `ca/ca.crt`, `ca.key`
 - Signed node `certs` and `keys`, based on the instances
-
-### Usage in the elasticsearch environment
-
-```bash
-xpack.security.enabled=true
-xpack.security.http.ssl.enabled=true
-xpack.security.http.ssl.key=certs/elasticsearch/elasticsearch.key 
-xpack.security.http.ssl.certificate=certs/es01/elasticsearch.crt
-xpack.security.http.ssl.certificate_authorities=certs/ca/ca.crt
-xpack.security.transport.ssl.enabled=true
-xpack.security.transport.ssl.key=certs/elasticsearch/elasticsearch.key
-xpack.security.transport.ssl.certificate=certs/elasticsearch/elasticsearch.crt
-xpack.security.transport.ssl.certificate_authorities=certs/ca/ca.crt
-xpack.security.transport.ssl.verification_mode=certificate
-```

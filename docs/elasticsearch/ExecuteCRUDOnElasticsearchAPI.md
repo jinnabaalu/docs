@@ -2,7 +2,7 @@
 title:  "✍️ CRUD Operations in Action"
 description: Learn how to perform Create, Read, Update, and Delete operations with Elasticsearch using REST APIs in your local Docker setup.
 sidebar_position: 3
-"slug": "/ElasticStack/ExecuteCRUDOperationOnElasticsearch"
+"slug": "/ElasticStack/ExecuteCRUDOnElasticsearchAPI"
 ---
 # ✍️ CRUD Operations in Action
 
