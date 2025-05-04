@@ -16,7 +16,7 @@ Let’s hook up **Logstash** to your SSL-secured **Elasticsearch** node — no e
 
 - **Elasticsearch** must be **running, healthy, and SSL-enabled**.
 - **Certs?** Use the **same `certs/` folder** generated when securing Elasticsearch.
-- Place `certs/` folder **next to your docker-compose file**.
+- Place `certs/` folder **next to your docker compose file**.
 - **Network matters**:  
   - Same host? Use container names and **elknet** network.
   - Remote? Use **private IP** or **resolvable DNS name**.
@@ -46,7 +46,7 @@ wget -O docker-compose.yml https://raw.githubusercontent.com/jinnabaalu/ELKOpera
 ```
 
 ### 🛠️ Create the .env File
-Create a `.env` next to your docker-compose:
+Create a `.env` next to your docker compose:
 ```bash
 STACK_VERSION=9.0.0
 ELASTIC_PASSWORD=your_elastic_password
@@ -55,7 +55,7 @@ ELASTIC_PASSWORD=your_elastic_password
 
 ### 🚀 Spin Up the Logstash Container
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 Check container status: `docker ps -a`
 

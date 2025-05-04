@@ -58,7 +58,7 @@ MEM_LIMIT=1g
 ---
 ## 🚀 Spin Up the Kibana Container
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 Check container status: `docker ps -a`
 Look for **kibana** — it will stay starting until you set the `kibana_system` user password.

@@ -9,6 +9,8 @@ slug: "/ElasticStack/elasticsearch-3-node"
 
 **TL;DR:** Spin up a 3-node Elasticsearch cluster with SSL/TLS using Docker. It's secure, fast, and easy to deploy. Let's roll!
 
+**Github Repo**: [Elaasticsearch Three Node Cluster with XPack](https://github.com/jinnabaalu/ELKOperations/tree/main/elasticsearch/three-node)
+ 
 ## 📂 Folder Structure
 
 First, set up the directory like this:

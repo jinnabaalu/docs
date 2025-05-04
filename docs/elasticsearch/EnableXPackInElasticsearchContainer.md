@@ -23,7 +23,7 @@ You’ve got 3 easy ways to generate SSL certs. All require **Docker** to be run
   👉 [Generate certs using `docker run`](./miscellaneous/CertsWithDockerRun.md)
 
 - **Docker Compose**:  
-  👉 [Generate certs using `docker-compose`](./miscellaneous/CertsWithDockerCompose.md)
+  👉 [Generate certs using `docker compose`](./miscellaneous/CertsWithDockerCompose.md)
 
 Pick **any** method you vibe with.  
 Once generated, **copy the certs** to your target environment or server.

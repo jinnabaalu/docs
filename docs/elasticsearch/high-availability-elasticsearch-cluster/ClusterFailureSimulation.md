@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: "🐳 Elasticsearch 3-Node Cluster Failure Simulation"
 description: "Simulate and manage three-node Elasticsearch cluster failures, observe failover behavior, and recover using Docker containers."
 slug: "/ElasticStack/Elasticsearch-3-NodeClusterFailureSimulation"
