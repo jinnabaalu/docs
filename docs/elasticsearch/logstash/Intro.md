@@ -1,10 +1,34 @@
 ---
 sidebar_position: 1
-title: 🫧 Introduction
-description: Overview of my Elasticsearch journey
-slug: /Logstash
-keywords: [Logstash, Containerisation, Masking, ETL]
+title: 🛡️ Logstash Data Masking & Compliance
+description: Learn how to encrypt, mask, and securely ship sensitive data using Logstash for regulatory compliance.
+slug: /ElasticStack/Logstash
+keywords: [Logstash, Data Masking, PII, Encryption, Compliance, Secure ETL, Elastic Stack, GDPR, HIPAA]
 ---
+
+# 🛡️ Compliance Driven Pipeline Design
+
+1. Encrypting PII in Logstash 
+2. Masking PII
+3. Secure Data Transfer
+
+PII Masking Pipeline
+    Remove or obfuscate personally identifiable info.
+Field-Level Encryption Pipeline
+    Encrypt sensitive fields before indexing.
+
+Access Auditing Pipeline
+    Track access to sensitive data (logs about the logs).
+    Use: SOC 2, ISO 27001
+    How:
+        Send audit logs to a separate index with restricted access.
+        Use Beats → Logstash → audit index.
+Anonymization Pipeline
+    Purpose: Replace values with non-identifiable pseudonyms.
+    Use: R&D logs or GDPR pseudonymization
+    How:
+    
+
 # 🫧 Elastic Stack Operations
 
 ### Production-Proof Elasticsearch

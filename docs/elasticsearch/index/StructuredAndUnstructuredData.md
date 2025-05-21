@@ -1,7 +1,7 @@
 ---
 title:  "Structured and Unstructured Data"
 description: Learn how to perform Create, Read, Update, and Delete operations with Elasticsearch using REST APIs in your local Docker setup.
-sidebar_position: 9
+sidebar_position: 12
 "slug": "/ElasticStack/ExecuteCRUDOnElasticsearchAPI"
 ---
 # 

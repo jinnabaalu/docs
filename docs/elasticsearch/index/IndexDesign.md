@@ -12,7 +12,28 @@ title: "Design Index"
 
 Lets create one index and a record dynamically and see what are the default design is defined in the elasticsearch. 
 ```bash
-
+PUT /index_components_default/_doc/1
+{
+  "name": "Baalu",
+  "age": 32,
+  "active": true,
+  "created_at": "2024-05-04T12:00:00Z",
+  "status": "enabled",
+  "ip": "192.168.0.1",
+  "location": {
+    "lat": 12.97,
+    "lon": 77.59
+  },
+  "tags": ["infra", "devops"],
+  "address": {
+    "city": "Chennai",
+    "pin": 600001
+  },
+  "projects": [
+    { "name": "X", "status": "done" },
+    { "name": "Y", "status": "in-progress" }
+  ]
+}
 ```
 
 ## Core Index Components
@@ -44,3 +65,5 @@ Lets create one index and a record dynamically and see what are the default desi
 | `date`                                 | ISO8601 or timestamp fields |
 | `long`, `double`, `boolean`, `integer` | You know these              |
 | `object`, `nested`                     | Structured JSON             |
+
+
